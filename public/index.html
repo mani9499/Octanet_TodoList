@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="imp">
+            <h1 style="margin:0;">To-Do List</h1>
+            <button id="All">All Tasks</button>
+            <button id="today">Today</button>
+            <button id="tomorrow">Tomorrow</button>
+            <button id="important">Important</button><br>
+            <h3>Get Tasks On</h3>
+            <input type="date" id="date-fetch"><br>
+            <button id="completed">Completed Tasks</button>
+        </div>
+        <div class="todo">
+            <form id="new-todo" method="post" action="/todo">
+                <button type="button" id="imp"><i class="ri-star-fill"></i></button>
+                <div>
+                    <input name="date" type="date">
+                    <input name="task" type="text" placeholder="Task description">
+                </div>
+                <button type="submit"><i class="ri-arrow-right-circle-line"></i></button>
+            </form>
+            
+            <div id="fetch-todos">
+                <h2 id="title"></h2>
+                <br>
+                <ul id="todos-list" type="none"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

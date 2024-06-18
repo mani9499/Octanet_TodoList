@@ -1,0 +1,38 @@
+[
+  {
+    "imp": "true",
+    "date": "2024-06-16",
+    "task": "valorant",
+    "status": "yes"
+  },
+  {
+    "imp": "false",
+    "date": "2024-06-18",
+    "task": "Edx",
+    "status": "no"
+  },
+  {
+    "imp": "true",
+    "date": "2024-06-18",
+    "task": "Start Oasis Infobye",
+    "status": "no"
+  },
+  {
+    "imp": "false",
+    "date": "2024-06-17",
+    "task": "sleep peacefully",
+    "status": "no"
+  },
+  {
+    "imp": "true",
+    "date": "2024-06-19",
+    "task": "Android Studio",
+    "status": "no"
+  },
+  {
+    "imp": "true",
+    "date": "2024-06-19",
+    "task": "dancing",
+    "status": "no"
+  }
+]
